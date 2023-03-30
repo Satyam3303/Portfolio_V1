@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="../css/home.css">
+
+
+
+
+    <!-- stay -->
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADjElEQVRoge3ZS4gcRRzH8c86UZY
+    kisRXshjxEfEFCyJKHuADQRCRaJKD4EHwIJiD6CGrJugKxjdBL+IDTwZfi56CRj0oEcUoGkmCuagHIwoiwaiQjSS6HqrbHdvq6ZqZ7tk55At/mK76V9XvN9NdU1XNMYaLkZr6WYW1WIlzcDr+wi/Yj6/w
+    Lt7DdE1j1soqfI6ZxPgDL86J0g5swlHpJvLYMhdiy3hK9wZmcARnzYHeKLdLEz2N1/B7W9mrc6A3ytnCfZ5i5M2szShWYysuHbDeUrZKv41uKuljMQ7gR+zDdjyNW3Bqg9r/ZUz6w30AJ6CFXXgW12TXm
+    zu0O4opXNykkXsiA+/FGjyH79rKn8/aXFfI/9l/n5myOIR1TRmJ/V+sLuQsw3qMZ9cvJ4gui8O4sAkj64TbJB9op7AymJ/VLSrkLxAmhvuzzxt7MPNSE0ZyrsdHuDa7Xm/2/v4MD+NK3JaVL8zyTuzByK
+    4mjbTTwjcVYjYKZjaV1P+Nb7ENz+Au3ICLhKl7IKypMFEWX+IBYSY7eVBiO/GJ7k2sjPSzCCuEVcMTeAWXdCNkXk/yZzm/hzbH41zcLDxLl2NJJG8fvu5dWnd8qPfptVPswBmDMkH4x65L/EG8gMsGaSA
+    nn3r7iS9wqwHOUDGu1ruBj3Gj+rbbfXGaasGvZ1EsHzoeUW5iSpgZW/6/BRhKnlRuIqdoZigZEZbyMRMP4fHsc7uZoaJd5IiwWi2ayM0VzZT10xjj2UBF2kXm9fPETcTyOvVTHGc8Ut41+da0fZBOIsvq
+    U/Ni9ZurRKastfJF3mRb2WQkr6o+NS9Wv6JDf8n8oJn1VDexv0rkcQlGTknIaZpKDSlGUnKaplWVkCLyt5Lyd7A0i+1diOqFMg1dsVP8vj2zLWdpSU5d8WmVyJRfZHdCTtPsqaOTteLfUvHWqvpWD2ODs
+    K1dggn8mdBuRtgW980CacecVbEh0ve9Ce1+zTTUwpYajMQOGMYS2tX6hmuxsKcetJGDwuatVu7s08hEpM/7KtrcUbcJwjJ9qjDQITwqvM8YxXl4MCuPPewTwq8wJjwfnR72N5owkTNfOHPKTVxVkrdc3E
+    xq7DCAU5WFeBuPVeRN6s3ENuELGwgtnFSRs0x3BqZxtyE5HmpnVLqJD3R5aD1ILtBZ/BG8hSvqGKzf0/hOLMf3Zg/xfhJehu7F+8IBeC2r2mMMI/8AIRK2IpGDKrYAAAAASUVORK5CYII=" 
+    type="image/jpg">
+
+    <!--  -->
+
+
+    
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <div id="alpha">
+
+        <div class="side-top">
+
+            <button id="show1" onclick="switcher(introbar,mainz,'black','bisque',show1,hide1,12)"><span class="material-icons md-18">
+                nightlight
+                
+            </span>
+            </button>
+            
+                <button id="hide1" onclick="switcher(introbar,mainz,'black','bisque',show1,hide1,0)" style="display:none ;"><span class="material-icons md-18" style="color:bisque ;">
+                    light_mode
+                    
+                </span>
+            </button>
+        </div>
+
+        <!-- Intro Bar -->
+        <div class="introbar" id="introbar">
+            <div>
+                My PortFolio
+            </div>
+
+
+            <div class="d-flex pt-2">
+                
+            </div>
+           
+
+            <button id="hide3" onclick="toggle(skills,mainz,hide3,show2)" style="display:none ;"><span class="material-icons md-18">
+                expand_less
+            </span>
+        </button>
+        </div>
+        <!--  -->
+
+        <!-- Mainz -->
+
+
+        <div class="mainz" id="mainz">
+           
+
+            <div class="div1">
+                <img src="../images/self_image.jpg" alt="">
+            </div>
+
+            <div class="div2">About Me
+                <p>Hi, I’m Shivam. I’m a web developer who loves to make beautiful things.
+                    I love building websites that are easy to use and can be accessed by anyone.I’m a very driven and
+                    motivated individual who believes that each day should be challenging and rewarding.</p>
+
+            </div>
+        </div>
+
+        <!--  -->
+
+
+        <!-- Education-->
+        <div class="education" id="education">
+            <div class="text-center" style="font-size: 60px;">
+                Education</div>
+        
+            
+            <div class="cardz">
+                DAV Public School, Gandhinagar (2018-20) <br>
+                (Physics, Chemistry, Mathematics) 
+                
+            </div>
+            <div class="cardz">
+                XIM University (2020-Current) (8.45 cgpa) <br>
+                (B. Tech Computer Science)
+            </div>
+            
+
+
+
+
+        </div>
+
+        <!--  -->
+
+        <!-- Achievements -->
+        <div class="achievements" id="achievements">
+            <div class="text-center" style=" font-size: 60px;">
+           Academic Achievements
+        </div>
+        </div>
+
+        <!--  -->
+
+        
+
+        <!--  -->
+
+         <!-- Courses and Certifications -->
+         <div class="achievements" id="courses">
+            <div class="text-center" style="font-size: 60px;">   
+            Courses and Certifications
+        </div>
+        </div>
+
+        <!--  -->
+
+         <!-- Projects -->
+         <div class="achievements" id="projects">
+            Projects
+        </div>
+
+        <!--  -->
+
+        <!-- Skills -->
+
+        <div class="skills" id="skills">
+            Skills
+        
+        
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- The Social Part -->
+        <div class="socials">
+            Connect With Me
+
+            <div class="d-flex">
+                <div class="links">
+                    <button class="btn btn-primary">LinkedIn</button>
+                </div>
+                <div class="links">
+                    <button class="btn btn-primary">LinkedIn</button>
+                </div>
+                <div class="links">
+                    <button class="btn btn-primary">LinkedIn</button>
+                </div>
+
+            </div>
+
+        </div>
+        <!--  -->
+
+
+
+
+
+
+
+    </div>
+
+    <script src="../js/home.js"></script>
+
+</body>
+
+</html>

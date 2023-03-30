@@ -1,0 +1,174 @@
+body {
+    background-image: url(/images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Intro Bar */
+
+.introbar {
+   
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    border: 1px solid red;
+}
+
+.introbar div p{
+    font-size: 18px;
+    
+}
+
+.introbar div{
+    width: 50%;
+}
+
+
+.introbar div p{
+    width: 26%;
+}
+
+.introbar div a{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.introbar div a:hover{
+    font-size: 30px;
+}
+
+.introbar button{
+ 
+    border: 0px;
+}
+
+/*  */
+
+/* Mainz */
+
+.mainz{
+    display: flex;
+    
+    width: 100%;
+    font-size: 80px;
+}
+
+.div1{
+    width: 34%;
+    border-right: 3px solid rgb(69, 59, 206);
+}
+
+.div1 img{
+    width: 60%;
+    padding: 17px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.div2{
+    width: 68%;
+    text-align: center;
+    font-size: 44px;
+}
+
+.div2 p{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+
+
+/*  */
+
+/* Achievements */
+
+
+/*  */
+
+/* Education */
+
+
+
+.cardz{
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 40%;
+    padding: 3%;
+    font-size: 1.5rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+
+:hover.cardz
+{
+    
+}
+
+/*  */
+
+/* Skills */
+
+.skills{
+    
+    width: 100%;
+    font-size: 80px;
+    text-align: center;
+}
+
+/*  */
+
+/* side top */
+
+.side-top button{
+    background-color:rgba(255, 228, 196, 0);
+    border: 0px;
+}
+
+.space{
+    height: 4000px;
+}
+
+.links button:hover {
+    background-color: rgb(90, 93, 241);
+    transition: all 0.5s;
+}
+
+.socials {
+    background-color: rgba(255, 255, 255, 0.705);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.social-button {
+    background-color: rgb(157, 158, 247);
+    transition: all 0.5s;
+    width: 10%;
+    border-radius: 25%;
+    padding: 1%;
+    
+}
+
+.links {
+    width: 34%;
+    padding: 8px;
+    
+}
+
+.side-top{
+    position: absolute;
+    right: 0px;
+}
